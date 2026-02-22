@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "./page.module.css";
-import Landing from "@/app/components/Landing";
+import Landing from "@/components/Landing/index";
 
 export default function Home() {
   return (
