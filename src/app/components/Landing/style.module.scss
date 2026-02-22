@@ -1,0 +1,16 @@
+.landing {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  background-color: #e6e2e2;
+  .imageContainer {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    background-color: #fff;
+  }
+}
