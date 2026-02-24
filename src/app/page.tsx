@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Landing from "@/components/Landing/index";
 import Lenis from "lenis";
 import { useEffect } from "react";
+import Ship from "@/components/Ship/index";
 
 export default function Home() {
     useEffect(() => {
@@ -20,7 +21,8 @@ export default function Home() {
     }, []);
   return (
     <div className={styles.page}>
-      <Landing />
+        <Landing />
+        <Ship />
     </div>
   );
 }
