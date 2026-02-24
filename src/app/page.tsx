@@ -5,6 +5,7 @@ import Landing from "@/components/Landing/index";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import Ship from "@/components/Ship/index";
+import Boat from "@/components/Boat/index";
 
 export default function Home() {
     useEffect(() => {
@@ -23,6 +24,7 @@ export default function Home() {
     <div className={styles.page}>
         <Landing />
         <Ship />
+        <Boat />
     </div>
   );
 }

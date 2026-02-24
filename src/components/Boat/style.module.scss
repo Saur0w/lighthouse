@@ -1,0 +1,15 @@
+.boat {
+  height: auto;
+  width: 100vw;
+  background-color: #f1f1f1;
+
+  .imageContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
