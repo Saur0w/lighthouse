@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/index";
 import React from "react";
+import Footer from "@/components/Footer/index";
 
 export const metadata: Metadata = {
   title: "Lighthouse",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
       <Header />
         {children}
+      <Footer />
       </body>
     </html>
   );

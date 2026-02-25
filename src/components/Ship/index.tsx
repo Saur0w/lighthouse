@@ -1,26 +1,15 @@
 "use client";
 
 import styles from "./style.module.scss";
-import Image from "next/image";
-import { useRef } from "react";
+import PImage from "@/ui/Parallax/index";
 
 export default function Ship() {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const imageContainerRef = useRef<HTMLDivElement>(null);
-    const imageRef = useRef<HTMLImageElement>(null);
-
     return (
-        <section className={styles.ship} ref={containerRef}>
-            <div className={styles.imageContainer} ref={imageContainerRef}>
-                <Image
-                    src="/images/ship.jpg"
+        <section className={styles.ship}>
+            <div className={styles.imageContainer}>
+                <PImage
+                    src="/images/forest.jpg"
                     alt="ship"
-                    fill
-                    ref={imageRef}
-                    quality={100}
-                    sizes="100vw"
-                    priority
-                    unoptimized
                 />
             </div>
         </section>
