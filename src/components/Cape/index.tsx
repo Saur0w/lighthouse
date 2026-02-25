@@ -4,7 +4,7 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { SplitText } from 'gsap/dist/SplitText';
 import styles from './style.module.scss';
-import PImage from "@/ui/Parallax/index"; // Reusing your parallax component
+import PImage from "@/ui/Parallax/index";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
